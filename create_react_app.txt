@@ -1,0 +1,29 @@
+create react app:
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+if upper code doesn't work then follow below comands
+আর যদি কারো এখনো React ইনস্টল করতে সমস্যা হয়। অথাৎ উপরের তিনটা কমান্ড দিলে যদি কাজ না হয়-- কমান্ড লাইনে এরর দেখায়
+তাহলে নিচের চারটা কমান্ড দিয়ে চেষ্টা করো। 
+npm install -g create-react-app
+create-react-app my-app
+cd my-app
+npm start
+
+npm cache clean --force
+npx create-react-app my-app
+এটা কাজ না করলে
+npm init -y
+npm i create-react-app
+npx-create-app my-app
+
+include emmet for react vs
+"emmet.includeLanguages": {
+	'javascript": "javascriptreact"
+	}
+
+yarn
+
+codesandbox
